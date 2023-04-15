@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'b_basari.dart';
+import 'basketbolcular.dart';
+import 'koc.dart';
+
 
 
 class Basket_Genel extends StatelessWidget {
@@ -18,6 +22,8 @@ class Basket_Genel extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: () {
 
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => Koc()));
+
                   },
                   child: const Text('Koç'),
                 ),
@@ -25,7 +31,7 @@ class Basket_Genel extends StatelessWidget {
               Expanded(
                 child: ElevatedButton(
                   onPressed: () {
-
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => Basketbolcu()));
                   },
                   child: const Text('Baketbolcularımız'),
                 ),
@@ -33,7 +39,7 @@ class Basket_Genel extends StatelessWidget {
               Expanded(
                 child: ElevatedButton(
                   onPressed: () {
-
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => BasketBasari()));
                   },
                   child: const Text('Basketbol Başarıları'),
                 ),
