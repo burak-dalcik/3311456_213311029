@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 
 
-class Basket_Genel extends StatelessWidget{
+class Basket_Genel extends StatelessWidget {
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return SizedBox(
       height: double.infinity,
       width: double.infinity,
@@ -48,4 +48,4 @@ class Basket_Genel extends StatelessWidget{
     );
   }
 
-
+}

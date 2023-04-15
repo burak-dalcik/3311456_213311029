@@ -1,8 +1,11 @@
 import 'dart:ui';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:obd1_213311029/sayfa1.dart';
-import 'package:obd1_213311029/sayfalar/Basketbol/basketgenel.dart';
-import 'package:obd1_213311029/sayfalar/Futbol/futbolgenel.dart';
+
+import '../sayfa1.dart';
+import '../sayfalar/Basketbol/basketgenel.dart';
+import '../sayfalar/Futbol/futbol_genel.dart';
+
 
 
 

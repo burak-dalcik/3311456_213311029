@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:proje_12_numara/brans.dart';
 import 'package:proje_12_numara/sayfalar/Futbol/forma_yorum.dart';
+import 'package:proje_12_numara/tarihce.dart';
 
 
 
